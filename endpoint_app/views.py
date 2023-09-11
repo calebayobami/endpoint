@@ -12,7 +12,7 @@ def endpoint(request):
     utc_time = datetime.datetime.now(pytz.UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
-    github_source_url = 'https://github.com/calebayobami/endpoint'
+    github_source_url = 'https://github.com/calebayobami/endpoint/blob/main/endpoint_app/views.py'
     github_repo_url = 'https://github.com/calebayobami/endpoint'
 
 
