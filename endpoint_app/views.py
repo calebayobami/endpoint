@@ -12,8 +12,8 @@ def endpoint(request):
     utc_time = datetime.datetime.now(pytz.UTC).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
-    github_file_url = 'http://githuib.com/project/endpoint'
-    github_source_url = 'http://githuib.com/project/endpoint'
+    github_source_url = 'https://github.com/calebayobami/endpoint'
+    github_repo_url = 'https://github.com/calebayobami/endpoint'
 
 
     data = {
@@ -21,7 +21,7 @@ def endpoint(request):
         'track':track,
         'current_day': current_day,
         'utc_time': utc_time,
-        'github_file_url': github_file_url,
+        'github_repo_url': github_repo_url,
         'github_source_url':github_source_url,
         'status_code': 200
     }
